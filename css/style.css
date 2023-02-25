@@ -44,6 +44,46 @@ body {
 /* ------------------------------ */
 
 /* tulis semua kode css yang berkaitan dengan task menu section disini... */
+.menu {
+    padding: 7rem 7% 1.4rem 7%;
+}
+.menu h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.menu h2 span {
+    color: var(--primary);
+}
+.menu p {
+    text-align: center;
+    max-width: 30rem;
+    margin: auto;
+    font-weight: 200;
+    line-height: 1.6;
+    color: #ddd;
+}
+.menu .row {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.menu .row .menu-card {
+    max-width: 18rem;
+    text-align: center;
+}
+.menu .row .menu-card-image {
+    border-radius: 100%;
+    width: 80%;
+}
+.menu .row .menu-card-title {
+    margin-top: 1.5rem auto;
+}
+.menu .row .menu-card-price {
+    margin-top: 1rem auto;
+}
 
 /* ------------------------------ */
 /* --      Contact Section     -- */
