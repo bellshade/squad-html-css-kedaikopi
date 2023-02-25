@@ -25,107 +25,37 @@ body {
 /* --          Navbar          -- */
 /* ------------------------------ */
 
-/* tulis semua kode css yang berkaitan dengan task navbar disini... */
+// tulis semua kode css yang berkaitan dengan task navbar disini...
 
 /* ------------------------------ */
 /* --       Hero Section       -- */
 /* ------------------------------ */
 
-/* tulis semua kode css yang berkaitan dengan task hero section disini... */
+// tulis semua kode css yang berkaitan dengan task hero section disini...
 
 /* ------------------------------ */
 /* --       About Section      -- */
 /* ------------------------------ */
 
-/* tulis semua kode css yang berkaitan dengan task about section disini... */
+// tulis semua kode css yang berkaitan dengan task about section disini...
 
 /* ------------------------------ */
 /* --      Menu Section     -- */
 /* ------------------------------ */
 
-/* tulis semua kode css yang berkaitan dengan task menu section disini... */
+// tulis semua kode css yang berkaitan dengan task menu section disini...
 
 /* ------------------------------ */
 /* --      Contact Section     -- */
 /* ------------------------------ */
-.contact {
-    padding: 7rem 7% 1.4rem 7%;
-}
-.contact h2 {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-.contact h2 span {
-    color: var(--primary);
-}
-.contact > p {
-    text-align: center;
-    max-width: 30rem;
-    font-weight: 200;
-    line-height: 1.6;
-    color: #ddd;
-    margin: auto;
-}
-.contact .row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-top: 2rem;
-    background-color: #1d1d1d;
-}
-.contact .row > * {
-    flex: 1 1;
-}
-.contact .row .map {
-    aspect-ratio: 1;
-}
-.contact .row form {
-    padding: 1rem;
-}
-.contact .row form .input-group {
-    display: flex;
-    background: #000;
-    border: 1px solid #484848;
-    align-items: center;
-    padding: 0 1rem;
-    margin-bottom: 1rem;
-}
-.contact .row form .input-group input {
-    flex-grow: 1;
-    padding: 1rem;
-    background: transparent;
-}
-.contact .row form button {
-    padding: 0.8rem;
-    background: var(--primary);
-    color: rgba(1, 1, 1, 0.8);
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    margin: auto;
-    display: block;
-    cursor: pointer;
-    transform: translateX(1px) translateY(1px);
-    box-shadow: 3px 3px 0 var(--primaryDark);
-    transition: 150ms;
-}
-.contact .row form button:hover {
-    transform: translateX(0) translateY(0);
-    box-shadow: 4px 4px 0 var(--primaryDark);
-}
-.contact .row form button:active {
-    transform: translateX(4px) translateY(4px);
-    box-shadow: 0px 0px 0 var(--primaryDark);
-}
 
-/* tulis semua kode css yang berkaitan dengan task contact section disini... */
+// tulis semua kode css yang berkaitan dengan task contact section disini...
 
 /* ------------------------------ */
 /* --      Footer Section     --- */
 /* ------------------------------ */
 
-/* tulis semua kode css yang berkaitan dengan task footer section disini... */
+// tulis semua kode css yang berkaitan dengan task footer section disini...
 
 /* ------------------------------------------------------------------------- */
 /* -----                         Media Query                            ---- */
@@ -137,7 +67,7 @@ body {
         font-size: 87%;
     }
 
-    /* tulis semua kode css untuk menangani elemen ketika di layar desktop... */
+    // tulis semua kode css untuk menangani elemen ketika di layar desktop...
 }
 
 /* ----| tablet | -------------------------------------- */
@@ -146,7 +76,7 @@ body {
         font-size: 75%;
     }
 
-    /* tulis semua kode css untuk menangani elemen ketika di layar tablet... */
+    // tulis semua kode css untuk menangani elemen ketika di layar tablet...
 }
 
 /* ----| mobile | -------------------------------------- */
@@ -155,5 +85,5 @@ body {
         font-size: 75%;
     }
 
-    /* tulis semua kode css untuk menangani elemen ketika di layar mobile... */
+    // tulis semua kode css untuk menangani elemen ketika di layar mobile...
 }
