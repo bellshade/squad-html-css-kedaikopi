@@ -56,6 +56,41 @@ body {
 /* ------------------------------ */
 
 /* tulis semua kode css yang berkaitan dengan task footer section disini... */
+footer {
+    background-color: var(--primaryDark);
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer .socials {
+    padding: 1rem 0;
+}
+footer .socials a {
+    color: #fff;
+    padding: 0.7rem 1rem;
+}
+footer .socials a:hover {
+    color: var(--bg);
+}
+footer .links {
+    margin-bottom: 1.2rem;
+}
+footer .links a {
+    color: #fff;
+    padding: 0.7rem 1rem;
+}
+footer .links a:hover {
+    color: var(--bg);
+}
+footer .credit {
+    font-size: 0.8rem;
+}
+footer .credit a {
+    color: var(--bg);
+    font-weight: 700;
+}
 
 /* ------------------------------------------------------------------------- */
 /* -----                         Media Query                            ---- */
