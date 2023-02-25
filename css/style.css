@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary: #b6895b;
+    --primaryDark: #654b30;
+    --bg: #010101;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg);
+    color: #ffffff;
+}
+
+/* ------------------------------ */
+/* --          Navbar          -- */
+/* ------------------------------ */
+
+// tulis semua kode css yang berkaitan dengan task navbar disini...
+
+/* ------------------------------ */
+/* --       Hero Section       -- */
+/* ------------------------------ */
+
+// tulis semua kode css yang berkaitan dengan task hero section disini...
+
+/* ------------------------------ */
+/* --       About Section      -- */
+/* ------------------------------ */
+
+// tulis semua kode css yang berkaitan dengan task about section disini...
+
+/* ------------------------------ */
+/* --      Menu Section     -- */
+/* ------------------------------ */
+
+// tulis semua kode css yang berkaitan dengan task menu section disini...
+
+/* ------------------------------ */
+/* --      Contact Section     -- */
+/* ------------------------------ */
+
+// tulis semua kode css yang berkaitan dengan task contact section disini...
+
+/* ------------------------------ */
+/* --      Footer Section     --- */
+/* ------------------------------ */
+
+// tulis semua kode css yang berkaitan dengan task footer section disini...
+
+/* ------------------------------------------------------------------------- */
+/* -----                         Media Query                            ---- */
+/* ------------------------------------------------------------------------- */
+
+/* ----| desktop | -------------------------------------- */
+@media (min-width: 1100px) {
+    html {
+        font-size: 87%;
+    }
+
+    // tulis semua kode css untuk menangani elemen ketika di layar desktop...
+}
+
+/* ----| tablet | -------------------------------------- */
+@media (max-width: 800px) {
+    html {
+        font-size: 75%;
+    }
+
+    // tulis semua kode css untuk menangani elemen ketika di layar tablet...
+}
+
+/* ----| mobile | -------------------------------------- */
+@media (max-width: 450px) {
+    html {
+        font-size: 75%;
+    }
+
+    // tulis semua kode css untuk menangani elemen ketika di layar mobile...
+}
