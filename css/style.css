@@ -114,6 +114,9 @@ body {
     }
 
     /* tulis semua kode css untuk menangani elemen ketika di layar tablet... */
+    .about .row {
+        flex-wrap: wrap;
+    }
 }
 
 /* ----| mobile | -------------------------------------- */
