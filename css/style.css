@@ -26,6 +26,62 @@ body {
 /* ------------------------------ */
 
 /* tulis semua kode css yang berkaitan dengan task navbar disini... */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: rgba(1, 1, 1, 0.8);
+    border-bottom: 1px solid var(--primaryDark);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+}
+
+.navbar .navbar-logo {
+    /* flex-grow: 1; */
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    font-style: italic;
+}
+.navbar .navbar-logo span {
+    color: var(--primary);
+}
+
+.navbar .navbar-nav a {
+    color: #fff;
+    font-size: 1rem;
+    margin: 0 1rem;
+    border-radius: 4px;
+    position: relative;
+}
+.navbar .navbar-nav a:hover {
+    color: var(--primary);
+}
+.navbar .navbar-nav a::before {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(90deg, var(--primary), rgb(214, 99, 12));
+    transition: all ease-out 150ms;
+}
+.navbar .navbar-nav a:hover::before {
+    width: 100%;
+}
+
+.navbar .navbar-extra a {
+    color: #fff;
+    padding: 0.5rem;
+}
+
+.navbar .navbar-extra #hamburger-menu {
+    display: none;
+}
 
 /* ------------------------------ */
 /* --       Hero Section       -- */
