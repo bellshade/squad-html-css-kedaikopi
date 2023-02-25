@@ -140,4 +140,7 @@ body {
     }
 
     /* tulis semua kode css untuk menangani elemen ketika di layar mobile... */
+    .hero {
+        min-height: 80vh;
+    }
 }
