@@ -133,6 +133,36 @@ body {
     }
 
     /* tulis semua kode css untuk menangani elemen ketika di layar tablet... */
+    .navbar .navbar-extra #hamburger-menu {
+        display: inline-block;
+    }
+    .navbar .navbar-nav {
+        position: fixed;
+        z-index: 50;
+        right: -100%;
+        background: #240900;
+        flex-direction: column;
+        display: flex;
+        align-items: end;
+        text-align: right;
+        top: 68px;
+        padding: 16px;
+        transition: all ease-in-out 100ms;
+        opacity: 0;
+        bottom: 0;
+    }
+    .navbar .navbar-nav a {
+        padding: 1.25rem 0;
+        font-size: 1.5rem;
+    }
+    .navbar .navbar-nav a::before {
+        left: 0px;
+        bottom: -4px;
+    }
+    .navbar .navbar-nav.active {
+        opacity: 1;
+        right: 0;
+    }
 }
 
 /* ----| mobile | -------------------------------------- */
