@@ -114,3 +114,27 @@ Dan berikut saran yang bisa kami berikan:
 <br>
 
 ## Getting Started
+
+Untuk memulai project kamu perlu repo sebagai codebase satu tim. Kamu dapat gunakan skeleton template yang ada di repository ini dengan cara berikut:
+
+1. Klik use this template di repo ini.
+ <p align="center">
+     <img src="./docs/img/getting-started-1.jpg">
+ </p>
+
+2. Beri nama pada repo yang akan kamu buat.
+ <p align="center">
+     <img src="./docs/img/getting-started-2.jpg" width="75%">
+ </p>
+
+3. Repo kamu sedang dibuat, tunggu sebentar.
+ <p align="center">
+     <img src="./docs/img/getting-started-2-in-progress.jpg" width="75%">
+ </p>
+
+4. Sudah, repo kamu sudah dibuat.
+ <p align="center">
+     <img src="./docs/img/getting-started-3.jpg" width="75%">
+ </p>
+
+5. Ajakin temen kamu untuk selesaikan project ini bareng-bareng. ✨
