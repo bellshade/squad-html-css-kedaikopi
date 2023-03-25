@@ -25,37 +25,37 @@ body {
 /* --          Navbar          -- */
 /* ------------------------------ */
 
-// tulis semua kode css yang berkaitan dengan task navbar disini...
+/* tulis semua kode css yang berkaitan dengan task navbar disini.. */
 
 /* ------------------------------ */
 /* --       Hero Section       -- */
 /* ------------------------------ */
 
-// tulis semua kode css yang berkaitan dengan task hero section disini...
+/* tulis semua kode css yang berkaitan dengan task hero section disini.. */
 
 /* ------------------------------ */
 /* --       About Section      -- */
 /* ------------------------------ */
 
-// tulis semua kode css yang berkaitan dengan task about section disini...
+/* tulis semua kode css yang berkaitan dengan task about section disini.. */
 
 /* ------------------------------ */
 /* --      Menu Section     -- */
 /* ------------------------------ */
 
-// tulis semua kode css yang berkaitan dengan task menu section disini...
+/* tulis semua kode css yang berkaitan dengan task menu section disini.. */
 
 /* ------------------------------ */
 /* --      Contact Section     -- */
 /* ------------------------------ */
 
-// tulis semua kode css yang berkaitan dengan task contact section disini...
+/* tulis semua kode css yang berkaitan dengan task contact section disini.. */
 
 /* ------------------------------ */
 /* --      Footer Section     --- */
 /* ------------------------------ */
 
-// tulis semua kode css yang berkaitan dengan task footer section disini...
+/* tulis semua kode css yang berkaitan dengan task footer section disini.. */
 
 /* ------------------------------------------------------------------------- */
 /* -----                         Media Query                            ---- */
@@ -67,7 +67,7 @@ body {
         font-size: 87%;
     }
 
-    // tulis semua kode css untuk menangani elemen ketika di layar desktop...
+    /* tulis semua kode css untuk menangani elemen ketika di layar desktop... */
 }
 
 /* ----| tablet | -------------------------------------- */
@@ -76,7 +76,7 @@ body {
         font-size: 75%;
     }
 
-    // tulis semua kode css untuk menangani elemen ketika di layar tablet...
+    /* tulis semua kode css untuk menangani elemen ketika di layar tablet... */
 }
 
 /* ----| mobile | -------------------------------------- */
@@ -85,5 +85,5 @@ body {
         font-size: 75%;
     }
 
-    // tulis semua kode css untuk menangani elemen ketika di layar mobile...
+    /* tulis semua kode css untuk menangani elemen ketika di layar mobile... */
 }
